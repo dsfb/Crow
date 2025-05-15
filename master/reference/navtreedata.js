@@ -25,10 +25,14 @@
 var NAVTREE =
 [
   [ "Crow", "index.html", [
-    [ "Namespace Members", "namespacemembers.html", [
-      [ "All", "namespacemembers.html", null ],
-      [ "Functions", "namespacemembers_func.html", null ],
-      [ "Typedefs", "namespacemembers_type.html", null ]
+    [ "Namespaces", "namespaces.html", [
+      [ "Namespace List", "namespaces.html", "namespaces_dup" ],
+      [ "Namespace Members", "namespacemembers.html", [
+        [ "All", "namespacemembers.html", null ],
+        [ "Functions", "namespacemembers_func.html", null ],
+        [ "Typedefs", "namespacemembers_type.html", null ],
+        [ "Enumerations", "namespacemembers_enum.html", null ]
+      ] ]
     ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
@@ -37,21 +41,25 @@ var NAVTREE =
         [ "All", "functions.html", null ],
         [ "Functions", "functions_func.html", null ],
         [ "Variables", "functions_vars.html", null ],
-        [ "Typedefs", "functions_type.html", null ]
+        [ "Typedefs", "functions_type.html", null ],
+        [ "Related Symbols", "functions_rela.html", null ]
       ] ]
     ] ],
     [ "Files", "files.html", [
-      [ "File List", "files.html", "files_dup" ]
+      [ "File List", "files.html", "files_dup" ],
+      [ "File Members", "globals.html", [
+        [ "All", "globals.html", null ],
+        [ "Macros", "globals_defs.html", null ]
+      ] ]
     ] ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"_tiny_s_h_a1_8hpp_source.html",
-"classcrow_1_1json_1_1wvalue.html#a4a885b86093c6fc423747a46865996b3",
-"structcrow_1_1_session_middleware.html#a291d0e284dd9c9b0550a5ef4718336ff",
-"structcrow_1_1response.html#a82bba7eaacfee514c55630a13a85410e"
+"_tiny_s_h_a1_8hpp.html",
+"multipart__view_8h_source.html",
+"structcrow_1_1multipart_1_1message__view.html#ad0a498ccdfea67c512d5cb23f62c4f1c"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
